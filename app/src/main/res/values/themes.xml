@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CyberDL" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cyber_green</item>
+        <item name="colorPrimaryDark">@color/cyber_bg</item>
+        <item name="colorAccent">@color/cyber_magenta</item>
+        <item name="android:windowBackground">@color/cyber_bg</item>
+        <item name="android:statusBarColor">@color/cyber_bg</item>
+        <item name="android:navigationBarColor">@color/cyber_bg</item>
+        <item name="android:textColorPrimary">@color/cyber_text</item>
+    </style>
+</resources>
