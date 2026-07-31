@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyber_bg">#050810</color>
+    <color name="cyber_panel">#0A0F1C</color>
+    <color name="cyber_panel_soft">#0D1526</color>
+    <color name="cyber_input_bg">#030509</color>
+    <color name="cyber_border">#4000FFC8</color>
+    <color name="cyber_green">#00FFB3</color>
+    <color name="cyber_cyan">#00D9FF</color>
+    <color name="cyber_magenta">#FF2D8F</color>
+    <color name="cyber_violet">#B794F6</color>
+    <color name="cyber_text">#E8FBFF</color>
+    <color name="cyber_text_dim">#6B8091</color>
+    <color name="btn_text_dark">#021B14</color>
+</resources>
