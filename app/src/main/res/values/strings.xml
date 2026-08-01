@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CyberDL</string>
+    <string name="tagline">paste link tiktok, biar sistem yang kerja...</string>
+    <string name="hint_url">Tempel link TikTok di sini...</string>
+    <string name="btn_download">↓ DOWNLOAD</string>
+    <string name="btn_clear">✕ BERSIHKAN</string>
+    <string name="status_idle">STATUS: menunggu link...</string>
+    <string name="subtitle_pick_platform">Mau download dari mana?</string>
+</resources>

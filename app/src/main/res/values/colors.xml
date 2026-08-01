@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_base">#0F1115</color>
+    <color name="surface">#1A1D24</color>
+    <color name="surface_alt">#22262E</color>
+    <color name="surface_input">#181B21</color>
+    <color name="hairline">#262B34</color>
+    <color name="accent">#7C6FFF</color>
+    <color name="accent2">#5B4FE0</color>
+    <color name="accent_soft">#2A7C6FFF</color>
+    <color name="success">#22D3A8</color>
+    <color name="success2">#1AA688</color>
+    <color name="success_soft">#2222D3A8</color>
+    <color name="danger">#FF6B6B</color>
+    <color name="stat_blue">#5FA8FF</color>
+    <color name="stat_amber">#FFB020</color>
+    <color name="text_primary">#F5F6FA</color>
+    <color name="text_secondary">#9098A8</color>
+    <color name="text_muted">#5B6270</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="like_pink">#FF6B9D</color>
+    <color name="outline">#333A47</color>
+    <color name="outline_bright">#3D4656</color>
+    <color name="outline_glow">#557C6FFF</color>
+
+    <!-- Glassmorphism tokens -->
+    <color name="glass_fill">#1AFFFFFF</color>
+    <color name="glass_fill_soft">#12FFFFFF</color>
+    <color name="glass_fill_strong">#26FFFFFF</color>
+    <color name="glass_stroke">#3DFFFFFF</color>
+    <color name="glass_stroke_soft">#22FFFFFF</color>
+    <color name="glass_stroke_bright">#66FFFFFF</color>
+    <color name="glass_highlight">#59FFFFFF</color>
+    <color name="glass_shadow">#40000000</color>
+    <color name="glass_accent_fill">#3D7C6FFF</color>
+    <color name="glass_accent_fill_strong">#5C7C6FFF</color>
+    <color name="glass_success_fill">#3D22D3A8</color>
+</resources>
