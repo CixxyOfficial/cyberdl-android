@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_menu_option"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <FrameLayout
+        android:id="@+id/tileIconFrame"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_badge_video"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tvTileLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/on_accent"
+            android:textSize="18sp"
+            android:visibility="gone"
+            tools:text="T" />
+
+        <ImageView
+            android:id="@+id/ivTileIcon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/text_primary"
+        android:textSize="13.5sp"
+        tools:text="TikTok" />
+
+    <TextView
+        android:id="@+id/tvTileSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/text_secondary"
+        android:textSize="9.5sp"
+        tools:text="Video &amp; audio" />
+
+</LinearLayout>
