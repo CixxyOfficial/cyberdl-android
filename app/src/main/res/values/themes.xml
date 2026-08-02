@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CyberDL" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tiktok_accent</item>
+        <item name="colorPrimaryDark">@color/bg_base</item>
+        <item name="colorAccent">@color/tiktok_accent</item>
+        <item name="android:windowBackground">@color/bg_base</item>
+        <item name="android:statusBarColor">@color/bg_base</item>
+        <item name="android:navigationBarColor">@color/bg_base</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+    </style>
+</resources>
