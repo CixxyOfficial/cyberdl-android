@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_base">#07070C</color>
+    <color name="surface">#0F0F16</color>
+    <color name="surface_alt">#15151E</color>
+    <color name="surface_input">#0A0A10</color>
+
+    <color name="line">#24FFFFFF</color>
+    <color name="line_soft">#12FFFFFF</color>
+
+    <color name="text_primary">#F4F4F7</color>
+    <color name="text_secondary">#83838F</color>
+    <color name="text_muted">#55555F</color>
+
+    <!-- TikTok theme -->
+    <color name="tiktok_accent">#FF2E78</color>
+    <color name="tiktok_accent2">#7C3AED</color>
+    <color name="tiktok_soft">#1FFF2E78</color>
+
+    <!-- YouTube theme -->
+    <color name="youtube_accent">#19E3C4</color>
+    <color name="youtube_accent2">#0AA896</color>
+    <color name="youtube_soft">#1F19E3C4</color>
+
+    <color name="on_accent">#FFFFFF</color>
+    <color name="like_pink">#FF6B9D</color>
+    <color name="stat_blue">#5FA8FF</color>
+    <color name="stat_amber">#FFB020</color>
+</resources>
