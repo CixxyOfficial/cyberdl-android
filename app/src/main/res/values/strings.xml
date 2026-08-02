@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CyberDL</string>
+    <string name="tagline">Tempel link TikTok atau YouTube, pilih formatnya — tanpa watermark, tanpa drama.</string>
+    <string name="hint_url">https://vt.tiktok.com/xxxxxxx/</string>
+    <string name="btn_download">↓ Proses Link</string>
+    <string name="btn_clear">Bersihkan</string>
+    <string name="status_idle">menunggu link...</string>
+    <string name="credit_footer">crafted by moka-dev</string>
+</resources>

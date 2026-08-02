@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base surfaces, matched to MOKA.DL reference (near-black + faint violet/pink glow) -->
+    <color name="bg_base">#07070C</color>
+    <color name="surface">#100F16</color>
+    <color name="surface_alt">#17151F</color>
+    <color name="surface_input">#0A0A10</color>
+    <color name="hairline">#24FFFFFF</color>
+
+    <!-- primary accent = TikTok pink, secondary = violet (mirrors tiktok accent vars in html ref) -->
+    <color name="accent">#FF2E78</color>
+    <color name="accent2">#7C3AED</color>
+    <color name="accent_soft">#1FFF2E78</color>
+
+    <!-- youtube / audio accent = teal (mirrors youtube accent vars in html ref) -->
+    <color name="success">#19E3C4</color>
+    <color name="success2">#0AA896</color>
+    <color name="success_soft">#1F19E3C4</color>
+
+    <color name="danger">#FF6B6B</color>
+    <color name="stat_blue">#5FA8FF</color>
+    <color name="stat_amber">#FFB020</color>
+
+    <color name="text_primary">#F4F4F7</color>
+    <color name="text_secondary">#9A9AA5</color>
+    <color name="text_muted">#5C5C66</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="like_pink">#FF6B9D</color>
+
+    <color name="outline">#24FFFFFF</color>
+    <color name="outline_bright">#33FFFFFF</color>
+    <color name="outline_glow">#55FF2E78</color>
+
+    <color name="neon_violet">#99FF2E78</color>
+    <color name="neon_violet_bright">#CCFF2E78</color>
+    <color name="neon_teal">#8019E3C4</color>
+    <color name="neon_teal_bright">#CC19E3C4</color>
+    <color name="neon_pink">#80FF6B9D</color>
+</resources>

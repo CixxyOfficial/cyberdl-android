@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_base">
+
+    <View
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/bg_glow_purple" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="-70dp"
+        android:layout_marginEnd="-60dp"
+        android:background="@drawable/bg_glow_teal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <FrameLayout
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_badge_video"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:text="C"
+                android:textColor="@color/on_accent"
+                android:textSize="38sp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="CyberDL"
+            android:textColor="@color/text_primary"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Download video &amp; audio favoritmu\ntanpa ribet, langsung dari HP"
+            android:textAlignment="center"
+            android:textColor="@color/text_secondary"
+            android:textSize="13.5sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="28dp"
+        android:background="@drawable/bg_btn_primary"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Mulai"
+            android:textColor="@color/on_accent"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loadingContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="44dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <View android:id="@+id/dot1" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginEnd="7dp" android:background="@drawable/bg_dot" />
+        <View android:id="@+id/dot2" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginEnd="7dp" android:background="@drawable/bg_dot" />
+        <View android:id="@+id/dot3" android:layout_width="9dp" android:layout_height="9dp" android:background="@drawable/bg_dot" />
+    </LinearLayout>
+
+</FrameLayout>
